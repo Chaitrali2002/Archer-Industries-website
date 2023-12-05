@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archer Industries</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header img {
+            width: 100%;
+            height: auto;
+        }
+
+        header div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        nav {
+            background-color: #2980b9;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: bottom;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .page-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="header.jpg" style="width: 100%; height: auto;">
+        <div>
+            <h1>Archer Industries</h1>
+        </div>
+    </header>
+
+   
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="page-container">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us for inquiries, partnerships, or any other information. We look forward to hearing from you!</p>
+
+       
+        <div class="contact-form">
+            <form id="contact" action="" method="get">
+                <input name="name" type="text" placeholder="Your Full Name" required="">
+                <input name="email" type="email" placeholder="Your Email Address" required="">
+                <textarea name="message" rows="6" placeholder="Your Message" required=""></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer style="background-image: url('f.jpg'); background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>&copy; 2023 Archer Industries. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
